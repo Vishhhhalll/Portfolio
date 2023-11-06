@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishal's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/481347c0bb.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vishal's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Vishal</span>
+
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="vishal.pdf" download="download">
+            <button class="btn">Download Resume</button></a>
+            <a href="https://github.com/Vishhhhalll">
+            <button class="btn">Visit GitHub</button></a>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="developer.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <!-- <div class="footer-first">
+          <h3>Vishal's Developer Portfolio</h3>
+        </div> -->
+        <div class="wrapper">
+          <!-- <div class="icon Envelope"> -->
+            <!-- <div class="Icon">
+            <span><i class="fa-regular fa-envelope"></i></span>
+          </div> -->
+          <!-- <div class="icon Linkedin"> -->
+            <div class="Icon">
+              <a href="https://www.linkedin.com/in/pandey-vishal-375b2a287/">
+            <span><i class="fa-brands fa-linkedin"></i></span></a>
+          </div>
+          <!-- <div class="icon Github"> -->
+            <div class="Icon">
+              <a href="https://github.com/Vishhhhalll">
+            <span><i class="fa-brands fa-github"></i></span></a>
+          </div>
+           <!-- <div class="icon Twitter"> -->
+            <div class="Icon">
+              <a href="https://twitter.com/Vishall027">
+              <span><i class="fa-brands fa-twitter"></i></span></a>
+            </div>
+          <!-- <div class="icon Instagram"> -->
+            <div class="Icon">
+              <a href="https://www.instagram.com/vshxll/?next=%2F">
+            <span><i class="fa-brands fa-instagram"></i></span></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &copy; Vishal'sPortfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Desiger", "Software Tester"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

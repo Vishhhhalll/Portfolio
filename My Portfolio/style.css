@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(2, 2, 44);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(8, 8, 67);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(163, 105, 205);
+  font-size: 1.04rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2rem;
+}
+.leftSection .buttons {
+  padding: 40px 0;
+}
+.leftSection .btn {
+  padding: 6px;
+  background-color: #6d2074;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* .leftSection .btn:hover{
+    font-size: 1.8rem;
+  } */
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(174, 109, 235);
+}
+
+#element {
+  color: rgb(174, 109, 235);
+}
+footer {
+  height: 180px;
+  margin: 0;
+  padding: 0;
+  background: rgb(8, 8, 67);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 8, 67, 1) 16%,
+    rgba(48, 48, 166, 1) 96%
+  );
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.foote ul {
+  list-style: none;
+}
+.footer > div {
+  width: 223px;
+}
+footer .footer-rights {
+  text-align: center;
+  color: grey;
+  padding: 12px 0;
+}
+
+.wrapper {
+  display: inline-flex;
+  margin: 0 20px;
+  cursor: pointer;
+  justify-content: center;
+}
+/* .wrapper .Icon {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+} */
+.wrapper span{
+  height: 60px;
+  width: 60px;
+  display: block;
+  background-color: fff;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.wrapper span i{
+  font-size: 25px;
+  line-height: 60px;
+}
+.wrapper span a{
+  background-color: #ffff;
+}
